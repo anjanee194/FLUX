@@ -2,7 +2,7 @@
 FLUX: A Novel Filter-Based Feature Selection Method
 FLUX is an innovative filter-based feature selection method that utilizes the XOR operation to identify and select significant features from datasets. It is designed to work efficiently with numerical data and binary class labels.
 
-Usage
+# Usage
 
 The function FLUX(data, k) allows you to select the top k features from your dataset. To use this function:
 
@@ -13,11 +13,11 @@ FLUX is currently designed for binary class data only and cannot handle multi-cl
 
 Example
 
-python code
+# python code
 # Example usage of the FLUX function
 selected_features = FLUX(data, k=5)
 
-Limitations
+# Limitations
 
 FLUX supports only binary classification tasks.
 Multi-class datasets are not compatible with FLUX in its current implementation.
