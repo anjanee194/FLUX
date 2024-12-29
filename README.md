@@ -3,6 +3,7 @@ FLUX: A Novel Filter-Based Feature Selection Method
 FLUX is an innovative filter-based feature selection method that utilizes the XOR operation to identify and select significant features from datasets. It is designed to work efficiently with numerical data and binary class labels.
 
 Usage
+
 The function FLUX(data, k) allows you to select the top k features from your dataset. To use this function:
 
 Ensure that the input dataset (data) contains only numerical columns.
